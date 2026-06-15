@@ -1,5 +1,6 @@
+import sys
 import os
-os.system("pip install scikit-learn numpy")
+os.system(f"{sys.executable} -m pip install scikit-learn numpy")
 
 import streamlit as st
 from sklearn.metrics.pairwise import cosine_similarity
